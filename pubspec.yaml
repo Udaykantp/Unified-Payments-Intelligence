@@ -1,0 +1,50 @@
+name: unified_payments_intelligence
+
+description: A comprehensive money manager app for iOS and Android
+
+version: 1.0.0+1
+
+environment:
+  sdk: 
+    >=3.0.0 <4.0.0
+
+dependencies:
+  flutter:
+  provider: ^6.0.0
+  hive: ^2.2.0
+  hive_flutter: ^1.1.0
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.10.0
+  cloud_firestore: ^4.13.0
+  dio: ^5.3.0
+  flutter_svg: ^2.0.7
+  google_fonts: ^6.1.0
+  cupertino_icons: ^1.0.2
+  intl: ^0.19.0
+  fl_chart: ^0.65.0
+  table_calendar: ^3.0.9
+  device_info_plus: ^10.0.0
+  connectivity_plus: ^5.0.0
+  flutter_secure_storage: ^9.0.0
+  local_auth: ^2.1.0
+  image_picker: ^1.0.4
+  logger: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+  flutter_lints: ^3.0.0
+  mockito: ^5.4.4
+
+flutter:
+  uses-material-design: true
+
+assets:
+  - assets/images/
+  - assets/icons/
+
+fonts:
+  - family: Poppins
+    fonts:
+      - asset: fonts/Poppins-Regular.ttf
+      - asset: fonts/Poppins-Bold.ttf
+      - asset: fonts/Poppins-SemiBold.ttf
